@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TutorialsNinja Hybrid Automation Suite]">
+  <test thread-count="5" verbose="0" name="TutorialsNinja Testcases(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.Create_Account_Test_Tutorialsninja">
+        <methods>
+          <include name="enterAllValidFeilds"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Create_Account_Test_Tutorialsninja -->
+      <class name="com.tutorialsninja.qa.testcases.Login_Test_Tutorialsninja">
+        <methods>
+          <include name="VerifyingLoginTestwithValidUserNameAndEmptyPassWord"/>
+          <include name="VerifyingLoginTestwithValidUserNameAndPassWord"/>
+          <include name="setUp"/>
+          <include name="VerifyingLoginTestwithEmptyUserNameAndEmptyPassWord"/>
+          <include name="VerifyingLoginTestwithInValidUserNameAndInvalidPassWord"/>
+          <include name="tearDown"/>
+          <include name="VerifyingLoginTestwithEmptyUserNameAndValidPassWord"/>
+          <include name="VerifyingLoginTestwithValidUserNameAndInValidPassWord"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Login_Test_Tutorialsninja -->
+    </classes>
+  </test> <!-- TutorialsNinja Testcases(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja Hybrid Automation Suite] -->
